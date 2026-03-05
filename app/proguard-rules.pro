@@ -1,0 +1,9 @@
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.android.gms.** { *; }
+-keep class com.google.gson.** { *; }
+-keep class com.google.gson.stream.** { *; }
+-keep class com.example.flappycoin.** { *; }
+-dontwarn android.**
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-verbose
